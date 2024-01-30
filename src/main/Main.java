@@ -1,10 +1,12 @@
 package main;
 import week2.Week2;
+import week5.Week5;
 
 public class Main {
     public static void main(String[] blah) {
 //        System.out.println("Hello World!");
-        week2Exercise();
+//        week2Exercise();
+        week5Exercise();
     }
 
     public static void week2Exercise() {
@@ -15,5 +17,11 @@ public class Main {
         myWeek2.conditionalOperator1();
         System.out.println("\nConditional Operator Exercise 2\n");
         myWeek2.conditionalOperator2();
+    }
+
+    public static void week5Exercise() {
+        System.out.println("\nWeek 5 Exercise 2\n");
+        Week5 myweek5 = new Week5();
+        myweek5.method2();
     }
 }
